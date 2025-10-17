@@ -1,9 +1,14 @@
 package LabWorks;
 
 public class Engine{
+    public enum FuelType{
+        GASOLINE,DIESEL,ELECTRIC
+    }
+    int horsePower;
+    FuelType fueltype;
 
-    enum FuelTYpe{
-        GASOLINE, DIESEL, ELECTRIC;
-
+    public Engine(int horsepower, FuelType fuelType){
+        this.horsePower = horsepower;
+        this.fueltype = fuelType;
     }
 }
