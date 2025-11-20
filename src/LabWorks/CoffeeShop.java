@@ -4,7 +4,7 @@ import java.util.*;
 public class CoffeeShop{
 public static void main(String[] args) {
 
-   //This needs
+   //This needs ...needs what?
     System.out.print("Hello! Welcome to our coffe shop! Our menu is:\n------------------ \nAmericano"+
             "\nCappucino\nLatte\nEspresso\n------------------\nPlease make a choice (A/C/L/E): ");
     Scanner keyboard = new Scanner(System.in);
