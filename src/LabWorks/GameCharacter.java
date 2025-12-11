@@ -13,7 +13,7 @@ public class GameCharacter {
         this.level = level;
         this.health = health;
         Random random = new Random();
-        this.characterId = 1000 * random.nextInt(9000);
+        this.characterId = random.nextInt(900);
         totalCharacters++;
     }
 
